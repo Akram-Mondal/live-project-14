@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+*
+{
+    font-family: sans-serif;
+
+}
+body
+{
+  margin: 0px;
+}
+/* ----------navbar---------- */
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1px;
+}
+.list-item
+{
+    display: inline;
+    margin-right: 80px;
+    color: #808080;
+}
+.active,.list-item:hover
+{
+    color: #000000;
+    cursor: pointer;
+}
+.nav-logo
+{
+    margin-left: 80px;
+    
+} 
+.list-left-line
+{
+    position: absolute;
+    z-index: 1px;
+    top: 50px;
+    right: 595px;  
+    width: 300px;
+    height: 2px;
+    background-color: #000000;
+}
+.menu
+{
+    display: none;
+}
+/* ------Hero Section------ */
+.hero-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ----------------hero-container-left---------- */
+.hero-container-left >img
+{
+    width: 500px;
+    height: 100vh;
+    margin-top: -95px;
+}
+/* ----------------hero-container-right---------------- */
+.heading
+{
+    margin-left: 115px;
+    margin-top: -35px; 
+    font-size: 120px;
+    color: #282626;
+}
+.ingredient
+{
+    position: absolute;
+    right: 215px;
+    top: 245px;
+    font-size: 30px;
+    color: #808080;
+}
+.button-large
+{
+    position: absolute;
+    right: 92px;
+    top: 350px;
+    font-size: 18px;
+    background-color: #282626;
+    color: #ffffff;
+    padding: 10px 50px;
+}
+.Social-media ul
+{
+    position: absolute;
+    right: 80px;
+    top: 100px;
+    list-style-type: none;
+}
+.list-item1
+{
+    margin-bottom: 30px;
+}
+.Status 
+{
+     margin-left: 100px;
+}
+.Status li
+{
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: #808080;
+}
+.Status li::marker
+{
+   font-size: 40px;
+}
+.Status li:first-child
+{
+    color: #282626;
+}
+.status-line
+{
+    position: absolute;
+    bottom: 35px;
+    left: 616px;
+    width: 1px;
+    height: 270px;
+    background-color:#3d3b3b;
+    z-index: -1;
+}
+.paragraph
+{
+    position: absolute;
+    right: 223px;
+    bottom: 200px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.paragraph span
+{
+    font-size: 100px;
+}
+.cottonbro img
+{
+    position: absolute;
+    bottom: 0px;
+    width: 412px;
+    height: 205px;
+    right: 180px;
+
+}
+.arrow img
+{
+ position: absolute;
+ right: 60px;
+ bottom: 80px;
+ width: 50px;
+ height: 135px;
+
+}
+@media screen and (max-width: 1473px) 
+{
+    .heading
+    {
+        margin-left: 50px;
+    }  
+    .Status 
+    {
+        margin-left: 40px;
+    }   
+    .status-line
+    {
+        left: 556px;
+    }  
+}
+@media screen and (max-width: 1405px) 
+{
+    .list-left-line
+    {
+        width: 230px;
+    }
+    .heading
+    {
+        margin-left: 10px;
+        font-size: 110px;
+    }  
+    .Status 
+    {
+        margin-left: 30px;
+        margin-top: 130px;
+    }  
+    .Status li
+    {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .Status li::marker
+    {
+    font-size: 30px;
+    }
+    .status-line
+    {
+        left: 551px;
+    } 
+    .Social-media ul
+    {
+        top: 70px;
+    }
+    .ingredient
+    {
+        top: 220px;
+    }
+    .button-large
+    {
+        top: 330px;
+    }
+}
+@media screen and (max-width: 1330px) 
+{
+    .hero-container-left >img
+    {
+        width: 400px;
+    } 
+    .status-line 
+    {
+        left: 450px;
+    }
+}
+@media screen and (max-width: 1250px)
+{
+    .nav-logo img
+    {
+        width: 90px;
+        
+    } 
+    .hero-container-left >img
+    {
+        width: 350px;
+    } 
+    .status-line 
+    {
+        left: 410px;
+        bottom: 30px;
+    }
+}
+@media screen and (max-width: 1175px)
+{
+    .list-left-line
+    {
+        width: 190px;
+    }
+    .heading
+    {
+        margin-left: 10px;
+        font-size: 100px;
+    }  
+    .paragraph 
+    {
+        font-size: 17px;
+        margin-right: -38px;
+    }
+    .cottonbro img 
+    {
+        width: 318px;
+    }
+    .Status 
+    {
+        margin-top: 158px;
+    }
+    .status-line 
+    {
+        left: 450px;
+    }
+    .ingredient p 
+    {
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 1175px)
+{
+    .list-item
+    {
+        margin-right: 50px;
+    }
+    .list-left-line
+    {
+        right: 480px;
+    }
+     .Status 
+    {
+        margin-left: 30px;
+        margin-top: 130px;
+    }  
+    .Status li
+    {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .Status li::marker
+    {
+    font-size: 30px;
+    }
+    .status-line
+    {
+       
+        left: 551px;
+    } 
+    .Social-media ul
+    {
+        right: 50px;
+    }
+    .ingredient 
+    {
+        right: 170px;
+    }
+    .button-large
+    {
+        right: 50px;
+    }
+    .heading
+    {
+        margin-top: 10px;
+        font-size: 80px;
+    }  
+    .paragraph 
+    {
+        margin-right: -100px;
+    }
+    .cottonbro img
+    {
+        right: 120px;
+    }
+    .Status 
+    {
+        margin-left: 30px;
+        margin-top: 180px;
+    }  
+    .Status li
+    {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .Status li::marker
+    {
+    font-size: 30px;
+    }
+    .status-line
+    {
+        left: 400px;
+        bottom: 25px;
+        height: 250px;
+    } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .list
+    {
+        display: none;
+    }
+    .list-left-line
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+        margin-right: 50px;
+    }
+    .cottonbro img
+    {
+        display: none;
+    }
+    .ingredient p 
+    {
+        margin-top: 56px;
+        margin-right: -50px;
+    }
+    .button-large 
+    {
+        top: 350px;
+        right: 120px;
+    }
+    .paragraph p span
+    {
+        display: none;
+    }
+    .paragraph 
+    {
+        right: 134px;
+        bottom: 276px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .Status 
+    {
+        margin-left: 82px;
+        margin-top: 230px;
+    }  
+    .Status li
+    {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .Status li::marker
+    {
+    font-size: 25px;
+    }
+    .status-line
+    {
+        left: 455px;
+        height: 208px;
+        bottom: 10px;
+    }
+    .Social-media ul
+    {
+        
+        right: 130px;
+        top: 500px;
+    }
+    .arrow img 
+    {
+        right: 24px;
+    }
+
+
+
+}
+@media screen and (min-width: 880px)
+{
+    .Status 
+    {
+        margin-left: 160px;
+    }   
+    .status-line
+    {
+        left: 533px;
+    }
+}
+@media screen and (min-width: 970px)
+{
+    .Status 
+    {
+        margin-left: 260px;
+    }  
+    .status-line
+    {
+        left: 633px;
+    }  
+}
+@media screen and (min-width: 1023px)
+{
+    .Status 
+    {
+        margin-left: 30px;
+    }  
+    .status-line
+    {
+        left: 400px;
+    }
+}
+@media screen and (max-width: 767px) 
+{
+    
+    .list
+    {
+        display: none;
+    }
+    .list-left-line
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+        margin-right: 50px;
+    
+    }
+    .menu img
+    {
+        width: 30px;
+    }
+    .hero-container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-container-left >img
+    {
+        width: 250px;
+        height: 50vh;
+        margin-top:50px;  
+        padding: 20px;
+        background-color: #b1aeae;
+        border-radius: 10px;
+    }
+    .ingredient
+    {
+        position: relative;
+        right: 0px;
+        top: -60px; 
+    }
+    .button-large
+    {
+        position: relative;
+        right: 0px;
+        top: -60px;
+    }
+    
+    .Social-media ul
+    {
+        position: relative;
+        right: -170px;
+        top: 340px;
+    }
+    .Status 
+    {
+        position: relative;
+        top: -60px;
+        margin-left: 0px;
+        
+    }
+    .status-line
+    {
+        position: relative;
+        bottom: 310px;
+        left: 20px;
+    }
+    .paragraph
+    {
+        position: relative;
+        right: 0px;
+        top: -1050px;
+    }
+    .cottonbro img
+    {
+        position: relative;
+        top: -1050px;
+        right: 0px;
+
+    }
+    .arrow img
+    {
+     display: none;
+    }
+}
